@@ -42,3 +42,14 @@ del visitors[0]
 del visitors[-1]
 print(visitors)
 
+visitor = "李白"
+visitors.append(visitor)
+visitors.append(visitor)
+visitors.insert(1, "杜甫")
+print(visitors)
+
+visitors.remove(visitor)
+print(visitors)
+visitors.remove(visitor)
+print(visitors)
+
