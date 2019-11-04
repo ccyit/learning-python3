@@ -11,3 +11,7 @@ print("Hello, " + names[2].title() + "!")
 
 # 3-3
 
+transportations = ['火车', '汽车', '飞机', '轮船', '公交车', '自行车']
+
+for transportation in transportations:
+    print("I would like to own a " + transportation + ".")
