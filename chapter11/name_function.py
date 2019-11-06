@@ -1,6 +1,9 @@
-def get_formatted_name(first, last):
+def get_formatted_name(first, last, middle=''):
     """产生一个整洁的名字"""
-    full_name = first + ' ' + last
+    if middle:
+        full_name = first + ' ' + middle + ' ' + last
+    else:
+        full_name = first + ' ' + last
     return full_name.title()
 
 
